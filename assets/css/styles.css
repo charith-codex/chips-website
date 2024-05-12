@@ -198,7 +198,9 @@ img {
   color: var(--second-color);
 }
 /* Show menu */
-
+.show-menu{
+  left: 0;
+}
 
 /* Shadow header */
 
