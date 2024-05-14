@@ -245,6 +245,72 @@ img {
   align-items: center;
   column-gap: 1rem;
 }
+
+.home__images{
+  position: relative;
+  display: grid;
+  place-items: center;
+  justify-self: center;
+}
+
+.home__circle{
+  width: 320px;
+  height: 320px;
+  background-color: var(--first-color-darken);
+  border-radius: 50%;
+  box-shadow: inset var(--shadow-circle);
+  display: grid;
+  place-items: center;
+}
+
+.home__subcircle{
+  width: 250px;
+  height: 250px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+  box-shadow: var(--shadow-circle);
+}
+
+.home__images .home__img{
+  width: 250px;
+  rotate: 10deg;
+  filter: var(--shadow-img);
+  position: absolute;
+}
+
+.home__images img{
+  width: 60px;
+  filter: var(--shadow-img);
+  position: absolute;
+}
+
+.home__chips-1{
+  right: -.5rem;
+}
+
+.home__chips-2{
+  bottom: -.75rem;
+  right: .5rem;
+}
+
+.home__chips-3{
+  top: .25rem;
+  left: -.5rem;
+}
+
+.home__tomato-1{
+  top: -1.5rem;
+  right: 2.5rem;
+}
+
+.home__tomato-2{
+  left: 3.5rem;
+  bottom: -1.5rem;
+}
+
+.home__leaf{
+  left: -.75rem;
+}
 /*=============== BUTTON ===============*/
 .button{
   background-color: var(--second-color);
