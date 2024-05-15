@@ -203,7 +203,9 @@ img {
 }
 
 /* Shadow header */
-
+.shadow-header{
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .15);
+}
 
 /* Active link */
 
@@ -311,6 +313,7 @@ img {
 .home__leaf{
   left: -.75rem;
 }
+
 /*=============== BUTTON ===============*/
 .button{
   background-color: var(--second-color);
