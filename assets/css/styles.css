@@ -368,6 +368,8 @@ img {
 
 .favorites__img{
   width: 200px;
+  scale: .8;
+  transition: scale .4s, filter .4s;
 }
 
 .favorites__leaf-1,
@@ -375,6 +377,8 @@ img {
   width: 70px;
   position: absolute;
   filter: var(--shadow-img);
+  scale: 0;
+  transition: scale .4s .1s;
 }
 
 .favorites__leaf-1{
@@ -387,7 +391,21 @@ img {
   left: -.5rem;
 }
 /* Swiper class */
+.swiper{
+  margin-inline: initial;
+  overflow: visible;
+}
 
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites__img{
+  scale: 1;
+  filter: var(--shadow-img);
+}
+
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites__leaf-1,
+:is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites__leaf-2{
+  scale: 1;
+  filter: var(--shadow-img);
+}
 
 /*=============== CARE ===============*/
 
