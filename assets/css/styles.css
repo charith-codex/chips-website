@@ -404,7 +404,6 @@ img {
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites__leaf-1,
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites__leaf-2{
   scale: 1;
-  filter: var(--shadow-img);
 }
 
 /*=============== CARE ===============*/
