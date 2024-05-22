@@ -531,7 +531,33 @@ img {
   transform: translateY(-.5rem);
 }
 
+.products__crab,
+.products__hamburger,
+.products__cheese{
+  position: absolute;
+  width: 40px;
+  opacity: .5;
+}
 
+.products__crab{
+  top: -2.5rem;
+  left: 0;
+  rotate: 30deg;
+}
+
+.products__hamburger{
+  top: 17rem;
+  right: -1.5rem;
+  rotate: -15deg;
+}
+
+.products__cheese{
+  left: 2rem;
+  right: 0;
+  margin: 0 auto;
+  bottom: 3rem;
+  rotate: 15deg;
+}
 /*=============== CONTACT ===============*/
 
 
