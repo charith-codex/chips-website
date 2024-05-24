@@ -404,18 +404,160 @@ img {
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites__leaf-1,
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .favorites__leaf-2{
   scale: 1;
-  filter: var(--shadow-img);
 }
 
 /*=============== CARE ===============*/
+.care {
+  background-color: var(--first-color-dark);
+}
 
+.care__container{
+  row-gap: 3rem;
+  padding-block: 1rem  2rem;
+}
 
+.care__list{
+  display: grid;
+  row-gap: 1.25rem;
+}
+
+.care__item{
+  display: flex;
+  column-gap: .75rem;
+  align-items: center;
+}
+
+.care__item i{
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+
+.care__img{
+  width: 320px;
+  filter: var(--shadow-img);
+  justify-self: center;
+}
 /*=============== BANNER ===============*/
+.banner{
+  padding-top: 3rem;
+}
 
+.banner__container{
+  background-color: var(--second-color);
+  padding: 1rem 1.5rem;
+}
 
+.banner__list{
+  display: flex;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+
+.banner__item{
+  color: var(--second-color-dark);
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.banner__item i{
+  font-size: 1.5rem;
+}
+
+.banner__item span{
+  font: var(--small-font-size) var(--second-font)
+}
 /*=============== PRODUCTS ===============*/
+.products__container{
+  position: relative;
+  padding-top: 4.5rem;
+}
 
+.products__content{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem 1.5rem;
+}
 
+.products__card{
+  position: relative;
+  background-color: var(--first-color-dark);
+  padding: 6.25rem .75rem 1.25rem;
+  border-radius: 1rem;
+  box-shadow: inset var(--shadow-card);
+  z-index: 10;
+}
+
+.products__img{
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  right: 0;
+  width: 100px;
+  margin: 0 auto;
+  filter: var(--shadow-img);
+  transition: transform .4s;
+}
+
+.products__subtitle{
+  font-size: var(--small-font-size);
+}
+
+.products__title{
+  font: var(--font-regular) var(--h2-font-size) var(--second-font);
+  margin-bottom: .5rem;
+}
+
+.products__price{
+  font-family: var(--second-font);
+}
+
+.products__button{
+  position: absolute;
+  right: .75rem;
+  bottom: 1.25rem;
+  outline: none;
+  border: none;
+  background-color: var(--second-color);
+  padding: 4px;
+  border-radius: .25rem;
+  font-size: 1.25rem;
+  color: var(--second-color-dark);
+  box-shadow: var(--shadow-button);
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.products__card:hover .products__img{
+  transform: translateY(-.5rem);
+}
+
+.products__crab,
+.products__hamburger,
+.products__cheese{
+  position: absolute;
+  width: 40px;
+  opacity: .5;
+}
+
+.products__crab{
+  top: -2.5rem;
+  left: 0;
+  rotate: 30deg;
+}
+
+.products__hamburger{
+  top: 17rem;
+  right: -1.5rem;
+  rotate: -15deg;
+}
+
+.products__cheese{
+  left: 2rem;
+  right: 0;
+  margin: 0 auto;
+  bottom: 3rem;
+  rotate: 15deg;
+}
 /*=============== CONTACT ===============*/
 
 
