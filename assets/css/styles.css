@@ -630,7 +630,40 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer{
+  padding-block: 3rem 2rem;
+}
 
+.footer__container{
+  row-gap: 2rem;
+}
+
+.footer__logo{
+  color: var(--white-color);
+  font: var(--h1-font-size) var(--second-font);
+  justify-self: center;
+  text-shadow: var(--shadow-text);
+}
+
+.footer__content{
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  row-gap: 3.5rem;
+}
+
+.footer__copy{
+  grid-column: 1/3;
+  text-align: center;
+}
+
+.footer__link{
+  color: var(--white-color);
+  transition: color .4s;
+}
+
+.footer__link:hover{
+  color: var(--second-color);
+}
 
 /*=============== SCROLL BAR ===============*/
 
