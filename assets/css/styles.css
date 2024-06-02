@@ -707,7 +707,52 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px){
+  .container{
+    margin-inline: 1rem;
+  }
 
+  .section__title{
+    font-size: var(--h2-font-size);
+  }
+
+  .home__title{
+    font-size: 3rem;
+  }
+
+  .home__buttons{
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .home__circle{
+    width: 250px;
+    height: 250px;
+  }
+
+  .home__subcircle{
+    width: 200px;
+    height: 200px;
+  }
+
+  .home__images .home__img{
+    width: 200px;
+  }
+
+  .products__content{
+    grid-template-columns: 160px;
+    justify-content: center;
+  }
+
+  .footer__content{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 1.5rem;
+  }
+  .footer__copy{
+    grid-column: 1;
+  }
+}
 
 /* For medium devices */
 
