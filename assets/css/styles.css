@@ -891,5 +891,57 @@ img {
   .home__images img{
     width: 95px;
   }
+
+  .favorites__container{
+    grid-template-columns: 520px;
+    row-gap: 4rem;
+  }
+
+  .favorites__cheese-1,
+  .favorites__cheese-2{
+    width: 80px;
+  }
+
+  .favorites__cheese-1{
+    right: -18rem;
+  }
+
+  .favorites__cheese-2{
+    left: -18rem;
+  }
+
+  .favorites__swiper{
+    max-width: 1000px;
+  }
+
+  .favorites__article,
+  .favorites__img{
+    width: 320px;
+  }
+
+  .favorites__leaf-1,
+  .favorites__leaf-2{
+    width: 110px;
+  }
+
+  .care__container{
+    grid-template-columns: 500px 410px;
+    column-gap: 6rem;
+    align-items: center;
+    padding-block: 4rem;
+  }
+
+  .care__img{
+    width: 550px;
+    order: -1;
+  }
+
+  .care__item{
+    column-gap: 1rem;
+  }
+
+  .care__item i{
+    font-size: 2rem;
+  }
   
 }
