@@ -930,7 +930,7 @@ img {
     align-items: center;
     padding-block: 4rem;
   }
-
+  
   .care__img{
     width: 550px;
     order: -1;
@@ -942,6 +942,67 @@ img {
 
   .care__item i{
     font-size: 2rem;
+  }
+
+  .banner{
+    padding-top: 4rem;
+  }
+  .banner__list{
+    column-gap: 6.5rem;
+  }
+  .banner__item{
+    column-gap: 1rem;
+  }
+  .banner__item i{
+    font-size: 4.5rem;
+  }
+  .banner__item span{
+    font-size: var(--h1-font-size);
+  }
+
+  .products__container{
+    padding-top: 7.5rem;
+  }
+  .products__content{
+    grid-template-columns: repeat(3, 250px);
+    gap: 10rem 4rem;
+  }
+  .products__card{
+    padding: 11rem 2rem 2rem;
+    border-radius: 1.5rem;
+  }
+  .products__img{
+    width: 170px;
+    top: -5rem;
+  }
+  .products__subtitle{
+    font-size: var(--normal-font-size);
+  }
+  .products__price{
+    font-size: var(--h3-font-size);
+  }
+  .products__button{
+    right: 2rem;
+    bottom: 2rem;
+    padding: 6px;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+  }
+  .products__crab,
+  .products__hamburger,
+  .products__cheese{
+    width: 80px;
+  }
+  .products__crab{
+    top: 2rem;
+  }
+  .products__hamburger{
+    top: 30rem;
+    right: 3rem;
+  }
+  .products__cheese{
+    left: 4rem;
+    margin: initial;
   }
   
 }
