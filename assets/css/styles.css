@@ -1004,5 +1004,61 @@ img {
     left: 4rem;
     margin: initial;
   }
-  
+
+  .contact{
+    display: block;
+  }
+  .contact__container{
+    border-radius: 4rem;
+  }
+  .contact__content{
+    grid-template: 350px / 360px 300px;
+    justify-content: center;
+    column-gap: 5rem;
+    margin-top: 6rem;
+  }
+  .contact__data{
+    text-align: initial;
+    grid-template: max-content / repeat(2, max-content);
+    gap: 3rem 2rem;
+  }
+  .contact__title{
+    margin-bottom: 0.75rem;
+  }
+  .contact__social{
+    justify-content: initial;
+  }
+  .contact__img{
+    width: 320px;
+  }
+  .contact__shrimp,
+  .contact__crab,
+  .contact__meat{
+    width: 80px;
+  }
+  .contact__shrimp{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 22rem;
+  }
+  .contact__crab{
+    top: 5rem;
+    left: 4rem;
+  }
+  .contact__meat{
+    right: initial;
+    left: 12rem;
+    bottom: -1rem;
+  }
+  .footer{
+    padding-block: 5rem 3rem ;
+  }
+  .footer__container{
+    row-gap: 3rem;
+  }
+
+  .scrollup{
+    right: 3rem;
+  }
 }
